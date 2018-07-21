@@ -1,0 +1,13 @@
+node_modules
+source
+test
+.gitignore
+.npmignore
+.travis.yml
+.foia-db
+.foia-db.json
+LICENSE
+README.md
+tsconfig.json
+yarn.lock
+cc-test-reporter
