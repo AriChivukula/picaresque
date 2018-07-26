@@ -10,7 +10,7 @@ interface EnvConfig {
   description: string;
 }
 
-const configs: EnvConfigs = JSON.parse(readFileSync(".picturesque", "ascii"));
+const configs: EnvConfigs = JSON.parse(readFileSync(".picaresque", "ascii"));
 
 Object.keys(configs).map(
   (env_key: string) => {
