@@ -1,0 +1,14 @@
+{
+  "API_KEY": {
+    "description": "NPM login token"
+  },
+  "EMAIL": {
+    "description": "NPM login email"
+  },
+  "GITHUB_TOKEN": {
+    "description": "GitHub login token"
+  },
+  "GITHUB_USER": {
+    "description": "GitHub login user"
+  }
+}

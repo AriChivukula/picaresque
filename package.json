@@ -1,9 +1,7 @@
 {
   "name": "picturesque",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Environment Variable Arrangement",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
   "repository": "https://github.com/AriChivukula/picturesque.git",
   "author": "Ari Chivukula <ari@chivuku.la>",
   "license": "MIT",
@@ -11,7 +9,7 @@
     "@babel/polyfill": "7.0.0-beta.54"
   },
   "devDependencies": {
-    "@types/node": "10.5.2",
+    "@types/node": "10.5.3",
     "ts-node": "7.0.0",
     "typescript": "2.9.2"
   },
