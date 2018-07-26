@@ -13,14 +13,6 @@ jobs:
     - yarn outdated
     - yarn tsc
     - yarn ts-node source/cli.ts
-  - stage: Release
-    if: type = api
-    script:
-    - yarn ts-node source/cli.ts --compile
-    - git remote add target "https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git"
-    - git add -A
-    - git commit -m "ACTUALIZE ${TRAVIS_BUILD_NUMBER}"
-    - git push target HEAD:$TRAVIS_BRANCH
   - stage: Deploy
     if: tag IS present
     script:
