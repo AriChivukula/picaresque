@@ -7,7 +7,7 @@ interface EnvConfigs {
 }
 
 interface EnvConfig {
-  description = string;
+  description: string;
 }
 
 const configs: EnvConfigs = JSON.parse(readFileSync(".picturesque", "ascii"));
