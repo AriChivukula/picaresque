@@ -39,5 +39,8 @@
     "removeComments": true,
     "strict": true,
     "target": "ES3"
-  }
+  },
+  "files": [
+    "source/cli.ts"
+  ]
 }

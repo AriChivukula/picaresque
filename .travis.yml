@@ -13,7 +13,7 @@ jobs:
     - yarn outdated
     - yarn tsc
     - yarn ts-node source/cli.ts
-  - stage: Deploy
+  - stage: Release
     if: tag IS present
     script:
     - yarn tsc
