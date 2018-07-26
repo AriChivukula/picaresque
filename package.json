@@ -1,8 +1,8 @@
 {
-  "name": "picturesque",
-  "version": "0.0.1",
+  "name": "picaresque",
+  "version": "0.0.0",
   "description": "Environment Variable Arrangement",
-  "repository": "https://github.com/AriChivukula/picturesque.git",
+  "repository": "https://github.com/AriChivukula/picaresque.git",
   "author": "Ari Chivukula <ari@chivuku.la>",
   "license": "MIT",
   "dependencies": {
@@ -17,6 +17,6 @@
     "source/*"
   ],
   "bin": {
-    "picturesque": "build/cli.js"
+    "picaresque": "build/cli.js"
   }
 }
