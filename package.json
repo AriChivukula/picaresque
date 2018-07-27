@@ -5,6 +5,22 @@
   "repository": "https://github.com/AriChivukula/picaresque.git",
   "author": "Ari Chivukula <ari@chivuku.la>",
   "license": "MIT",
+  "nyc": {
+    "all": true,
+    "include": [
+      "source/*.ts"
+    ],
+    "instrument": true,
+    "extension": [
+      ".ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "lcov"
+    ]
+  },
   "dependencies": {
     "@babel/polyfill": "7.0.0-beta.54"
   },
